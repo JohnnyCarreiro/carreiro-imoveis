@@ -1,0 +1,28 @@
+  .SomeDiv {
+    /* 1st || 2nd */
+    display: flex;
+    z-index: 1;
+    height: 860px;
+    width: 100%;
+    max-width: 90%;
+    margin: 0px 64px;
+    align-content: center;
+    justify-content: center;
+
+    /* Grid */
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr);
+    -webkit-box-align: center;
+    align-items: center;
+    grid-template-areas: "col1 col2";
+    width: 100%;
+
+    /* Text field */
+    margin-bottom: 15px;
+    padding: 0px 36px;
+    .div {
+      padding-top: 0px;
+      padding-bottom: 60px;
+    }
+    // Remove max width for the paragraph
+  }
